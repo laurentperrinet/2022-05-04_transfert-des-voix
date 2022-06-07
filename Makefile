@@ -6,10 +6,12 @@ JN=$(J) --to notebook --inplace
 
 2022-06-06:
 	$(JN) 2022-06-06_transfert-des-voix.ipynb
+	git add *png
 	git commit -m 'results notebook' -a
 	git push
 2022-06-03:
 	$(JN) 2022-06-03_transfert-des-voix.ipynb
+	git add *png
 	git commit -m 'results notebook' -a
 	git push
 2022-06-02:

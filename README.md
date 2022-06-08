@@ -7,7 +7,7 @@ Pour cela, parmi les outils mathématiques de l'apprentissage automatique, nous 
 
 Bien sûr, le vote reste secret et on n'a pas accès au vote de chaque individu et encore moins à ses préférences. Mais comme chaque bureau de vote présente des variabilités liées au contexte local et qui fait que cette population locale a une préférence pour certains choix plutôt que d'autres, on peut considérer chaque bureau de vote comme une population individuelle pour lequel nous allons essayer de prédire les résultats du vote au deuxième tour. **En exploitant les irrégularités locales, bureau de vote par bureau de vote, nous allons pouvoir prédire (le mieux possible) le report des votes individuel (de chaque individu tel qu'il passe d'un vote à un autre, par exemple de "Hidalgo" à "Macron").** Nous allons en particulier montrer une prédiction très correcte des données du second tour à partir de ceux du premier, montrant la plausibilité d'une telle hypothèse :
 
-![Prédiction du transfert des voix](https://raw.githubusercontent.com/laurentperrinet/2022-05-04_transfert-des-voix/main/2022-06-08_prediction_transfert-des-voix_l1.png "Prédiction du transfert des voix")
+![Prédiction du transfert des voix](https://raw.githubusercontent.com/laurentperrinet/2022-05-04_transfert-des-voix/main/2022-06-08_prediction_transfert-des-voix_bce.png "Prédiction du transfert des voix")
 
 C'est à ma connaissance une contribution originale (jusqu'à ce qu'une bonne âme veuille bien me donner un lien vers une méthode existante similaire qui me permette de correctement la citer...) que nous allons exploiter ici. Cette prédiction, si elle est efficace, peut donner une idée du transfert de vote entre les deux tours qui a lieu en fonction des préférences des votes de chaque individu.
 

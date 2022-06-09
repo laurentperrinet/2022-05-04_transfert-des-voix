@@ -9,7 +9,7 @@ Bien sûr, le vote reste secret et on n'a pas accès au vote de chaque individu 
 
 ![Prédiction du transfert des voix](https://raw.githubusercontent.com/laurentperrinet/2022-05-04_transfert-des-voix/main/2022-06-08_prediction_transfert-des-voix_bce.png "Prédiction du transfert des voix")
 
-C'est à ma connaissance une contribution originale (jusqu'à ce qu'une bonne âme veuille bien me donner un lien vers une méthode existante similaire qui me permette de correctement la citer...) que nous allons exploiter ici. Cette prédiction, si elle est efficace, peut donner une idée du transfert de vote entre les deux tours qui a lieu en fonction des préférences des votes de chaque individu.
+C'est à ma connaissance une contribution originale (jusqu'à ce qu'une bonne âme veuille bien me donner un lien vers une méthode existante similaire qui me permette de correctement la citer...) que nous allons exploiter ici. Cette prédiction, si elle est efficace (et on va montrer qu'elle est en moyenne correctement prédite avec moins de 2 points de pourcentages d'erreur près), peut donner une idée du transfert de vote entre les deux tours qui a lieu en fonction des préférences des votes de chaque individu.
 
 Nous allons dans la suite montrer comment on peut estimer le pourcentage de chances d'exprimer une voix pour un candidat ou pour l'autre en fonction du choix qu'on a exprimé au premier tour:
 
@@ -18,6 +18,10 @@ Nous allons dans la suite montrer comment on peut estimer le pourcentage de chan
 Comme on le verra plus bas, ce tableau montre des tendances claires, par exemple que si on a voté "Macron", "Jadot", "Hidalgo" ou "Pécresse" au premier tour, alors on va certainement voter "Macron" au deuxième tour. Ces électeurs se montrent particulièrement consensuel et suivent le « pacte républicain » mise en place pour faire un "barrage" au Front National (en suivant le terme consacré). Il montre aussi que si on a voté "Le Pen" ou "Dupont-Aignan" au premier tour alors on va voter Le Pen au deuxième, un clair vote de suivi.
 
 Connaissant les couleurs politiques d'autres candidats du premier tour, on peut être surpris que les électeurs de "Arthaud", "Roussel", "Lassalle" ou "Poutou" ont majoritairement choisi "Le Pen" au deuxième tour, signifiant alors un rejet du candidat Macron. Les électeurs de Zemmour sont aussi partagés, signifiant un rejet des deux alternatives. **Ce résultat est à prendre avec des pincettes car ces derniers candidats ont obtenu moins de votes et donc que le processus d'inférence est forcément moins précis car il y a moins de données disponibles.** 
+
+En résumé, cette analyse donne des tendances en fonction des choix exprimés au premier tour:
+![Transfert des voix](https://raw.githubusercontent.com/laurentperrinet/2022-05-04_transfert-des-voix/main/2022-06-06_transfert-des-voix_tendances.png "Tendances présidentielle 2022")
+qui montre une nette séparation des groupes de vote.
 
 ## historique:
 

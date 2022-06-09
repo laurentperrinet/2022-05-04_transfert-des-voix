@@ -21,7 +21,7 @@ Connaissant les couleurs politiques d'autres candidats du premier tour, on peut 
 
 ## historique:
 
-Par transparence, je donne ici le cheminement pour obtenir le doc final. Les étapes intermédiaires sont disponibles via `git` et visibles par [nbdime](https://nbdime.readthedocs.io/en/latest/) (par exemple avec la commande `nbdiff-web 2022-06-03_transfert-des-voix.ipynb 2022-06-08_transfert-des-voix.ipynb`). N'hésitez pas à poster des questions dans [l'onglet adéquat](https://github.com/laurentperrinet/2022-05-04_transfert-des-voix/issues) pour proposer des améliorations.
+Par transparence, je donne ici le cheminement pour obtenir le doc final. Les étapes intermédiaires sont disponibles via `git` et visibles par [nbdime](https://nbdime.readthedocs.io/en/latest/) (par exemple avec la commande `nbdiff-web 2022-06-03_transfert-des-voix.ipynb 2022-06-08_transfert-des-voix.ipynb`). N'hésitez pas à poster dans [l'onglet adéquat](https://github.com/laurentperrinet/2022-05-04_transfert-des-voix/issues) si vous avez des questions ou pour proposer des améliorations.
 
 * [2022-06-08_transfert-des-voix.ipynb](https://github.com/laurentperrinet/2022-05-04_transfert-des-voix/blob/main/2022-06-08_transfert-des-voix.ipynb) : version quasi finale :-)
 * [2022-06-06_transfert-des-voix.ipynb](https://github.com/laurentperrinet/2022-05-04_transfert-des-voix/blob/main/2022-06-06_transfert-des-voix.ipynb) : reprise du texte - test nouveaux meta-paramètres sans grande influence sur les résultats

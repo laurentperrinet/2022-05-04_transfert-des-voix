@@ -1,6 +1,9 @@
 # tl;dr : *Inférence du transfert des voix entre candidats.*
 
 
+[![DOI](https://zenodo.org/badge/488514016.svg)](https://zenodo.org/badge/latestdoi/488514016)
+
+
 Afin d'analyser les résultats des élections, par exemple les dernières élections présidentielles de 2022 en France, et de mieux comprendre la dynamique des choix de vote entre les différents groupes de population, il peut être utile d'utiliser des outils d'[apprentissage automatique](https://fr.wikipedia.org/wiki/Apprentissage_automatique) pour inférer des structures à première vue cachées dans la masse des données. En particulier, inspiré par cet [article du Monde](https://www.lemonde.fr/les-decodeurs/article/2022/05/04/election-presidentielle-2022-quels-reports-de-voix-entre-les-deux-tours_6124672_4355770.html), on peut se poser la question de savoir *si on peut extraire depuis les données brutes des élections une estimation du report de voix entre les choix de vote au premier tour et ceux qui sont effectués au deuxième tour*.
 
 Pour cela, parmi les outils mathématiques de l'apprentissage automatique, nous allons utiliser des probabilités. Cette théorie va nous permettre d'exprimer le fait que les résultats tels qu'ils sont obtenus peuvent présenter une variabilité mais que celle-ci réelle résulte de préférences de chaque individu dans la population votante. En particulier, on peut considérer que chaque individu va avoir une préférence, graduée entre $0=0\%$ et $1=100\%$ pour chacun des choix (candidats, nul, blanc, abstention) au premier et second tour. Ainsi, les votes effectués vont correspondre à la réalisation de ces préférences. 

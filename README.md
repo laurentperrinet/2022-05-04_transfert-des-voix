@@ -23,7 +23,9 @@ Comme on le verra plus bas, ce tableau montre des tendances claires, par exemple
 Connaissant les couleurs politiques d'autres candidats du premier tour, on peut être surpris que les électeurs de "Arthaud", "Roussel", "Lassalle" ou "Poutou" ont majoritairement choisi "Le Pen" au deuxième tour, signifiant alors un rejet du candidat Macron. Les électeurs de Zemmour sont aussi partagés, signifiant un rejet des deux alternatives. **Ce résultat est à prendre avec des pincettes car ces derniers candidats ont obtenu moins de votes et donc que le processus d'inférence est forcément moins précis car il y a moins de données disponibles.** 
 
 En résumé, cette analyse donne des tendances en fonction des choix exprimés au premier tour:
+
 ![Transfert des voix](https://raw.githubusercontent.com/laurentperrinet/2022-05-04_transfert-des-voix/main/2022-06-06_transfert-des-voix_tendances.png "Tendances présidentielle 2022")
+
 qui montre une nette séparation des groupes de vote.
 
 ## historique:
